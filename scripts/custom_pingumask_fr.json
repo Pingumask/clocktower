@@ -1,0 +1,20 @@
+[
+	{
+		"id": "Psychopompe",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/psychopompe.png",
+		"name": "Psychopompe",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 37,
+		"otherNightReminder": "Le Psychopompe désigne le joueur qu'il souhaite posséder puis se rendort. Reveillez le Possédé, il désigne un joueur, le joueur désigné meurt. Si le Psychopompe est mort de cette façon: Marquez le Possédé comme Démon",
+		"reminders": [
+			"Démon",
+			"Possédé",
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit*, désignez un joueur à posséder. Le joueur possédé désigne quel joueur sera tué par le Démon cette nuit. Si le Psychopompe est tué de cette façon, le joueur possédé devient un Mauvais Psychopompe, mais ne l'apprend que la nuit suivante."
+	}
+]
