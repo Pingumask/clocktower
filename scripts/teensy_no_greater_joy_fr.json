@@ -1,0 +1,168 @@
+[
+	{
+		"id": "Horloger",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/clockmaker.png",
+		"name": "Horloger",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 40,
+		"firstNightReminder": "Indiquez à quelle distance le Démon se trouve de son Serviteur le plus proche (en nombre de maisons).",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous commencez la partie en sachant à combien de maisons le Démon se trouve de son Serviteur le plus proche."
+	},
+	{
+		"id": "Enquêteur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/investigator.png",
+		"name": "Enquêteur",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 34,
+		"firstNightReminder": "Indiquez un personnage de Serviteur en jeu et deux joueurs. L'un de ces joueurs est ce personnage.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"minion",
+			"Wrong"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en connaissant le personnage de Serviteur d'un joueur parmi deux désignés."
+	},
+	{
+		"id": "Empathe",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/empath.png",
+		"name": "Empathe",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 36,
+		"firstNightReminder": "Indiquez combien de joueurs sont mauvais parmis les voisins de l'empathe.",
+		"otherNight": 53,
+		"otherNightReminder": "Indiquez combien de joueurs sont mauvais parmis les voisins vivants de l'empathe.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprennez combien de joueurs sont mauvais pamis vos voisins vivants."
+	},
+	{
+		"id": "FemmeDeChambre",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/chambermaid.png",
+		"name": "Femme de chambre",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 50,
+		"firstNightReminder": "La Femme de chambre désigne deux autres joueurs vivants. Indiquez combien parmis eux ont été reveillés pour leur pouvoir cette nuit.",
+		"otherNight": 70,
+		"otherNightReminder": "La Femme de chambre désigne deux autres joueurs vivants. Indiquez combien parmis eux ont été reveillés pour leur pouvoir cette nuit.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, désignez 2 joueurs vivants (à part vous-même) : vous apprenez combien ont été réveillés à cause de leur pouvoir cette nuit."
+	},
+	{
+		"id": "Artiste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/artist.png",
+		"name": "Artiste",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, pendant la journée, posez en privé au narrateur une question fermée."
+	},
+	{
+		"id": "LeSage",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/sage.png",
+		"name": "Sage",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 43,
+		"otherNightReminder": "Si le sage a été tué par le Démon: Indiquez lui deux joueur dont l'un est le Démon.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si le Démon vous tue, vous apprennez les noms de deux joueurs. L'un d'eux est le Démon."
+	},
+	{
+		"id": "Ivrogne",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/drunk.png",
+		"name": "Ivrogne",
+		"edition": "tb",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"remindersGlobal": [
+			"Drunk"
+		],
+		"setup": true,
+		"ability": "Vous ne savez pas que vous êtres ivre. Vous croyez être un villageois, mais vous ne l'êtes pas."
+	},
+	{
+		"id": "Empoté",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/klutz.png",
+		"name": "Empoté",
+		"edition": "snv",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Quand vous apprennez votre mort, désignez publiquement un joueur encore en vie: s'il est mauvais: votre équipe a perdu."
+	},
+	{
+		"id": "Gourgandin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/scarletwoman.png",
+		"name": "Gourgandin",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 20,
+		"otherNightReminder": "Si le Démon est mort, informez le gourgandin qu'il devient le Démon.",
+		"reminders": [
+			"Demon"
+		],
+		"setup": false,
+		"ability": "S'il y a au moins 5 joueurs en vie au moment de la mort du Démon, vous devenez le Démon. (Les voyageurs ne comptent pas)"
+	},
+	{
+		"id": "LeBaron",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/baron.png",
+		"name": "Baron",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": true,
+		"ability": "Il y a deux étrangers de plus que prévu en jeu."
+	},
+	{
+		"id": "Diablotin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/imp.png",
+		"name": "Diablotin",
+		"edition": "tb",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 24,
+		"otherNightReminder": "Les diablotin indique un joueur, ce joueur meurt. Si le diablotin se choisit lui même, l'un de ses Serviteurss encore en vie devient le diablotin.",
+		"reminders": [
+			"Dead"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, indiquez un joueur: il meurt. Si vous vous suicidez de cette façon, l'un de vos Serviteurs encore en vie devient le diablotin."
+	}
+]

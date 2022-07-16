@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+	background: gray;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 0 0 1em #000c;
+	font-size: 3em;
+	margin-bottom: 2em;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 2em;
+	width: clamp(300px, 70vw, 1200px);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding: 1em 2em;
+	font-size: 1.5em;
+	background-color: black;
+	border-radius: 1em 0 1em 0;
+	box-shadow: 0 0 1em #000c;
+	text-transform: capitalize;
+}
+
+.base {
+	background: darkblue;
+}
+
+.custom {
+	background: darkred;
+}
+
+.teensy {
+	background: darkgreen;
+}

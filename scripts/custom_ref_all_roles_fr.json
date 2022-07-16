@@ -1,0 +1,2064 @@
+[
+	{
+		"id": "Lavandière",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/washerwoman.png",
+		"name": "Lavandière",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 32,
+		"firstNightReminder": "Indiquez un rôle de villageois en jeu et deux joueurs. L'un de ces joueurs est ce personnage.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Villageois",
+			"Faux"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en connaissant le rôle de villageois d'un joueur parmi deux désignés."
+	},
+	{
+		"id": "Bibliothéquaire",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/librarian.png",
+		"name": "Bibliothéquaire",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 33,
+		"firstNightReminder": "Indiquez un rôle d'étranger en jeu et deux joueurs. L'un de ces joueurs est ce personnage. (S'il n'y a pas d'étranger, indiquez le).",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Etranger",
+			"Faux"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en connaissant le rôle d'étranger d'un joueur parmi deux désignés. (ou en sachant qu'il n'y en a pas)."
+	},
+	{
+		"id": "Enquêteur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/investigator.png",
+		"name": "Enquêteur",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 34,
+		"firstNightReminder": "Indiquez un rôle de Serviteur en jeu et deux joueurs. L'un de ces joueurs est ce personnage.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Serviteur",
+			"Faux"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en connaissant le rôle de Serviteur d'un joueur parmi deux désignés."
+	},
+	{
+		"id": "LeChef",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/chef.png",
+		"name": "Chef",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 35,
+		"firstNightReminder": "Indiquez combien de paires de mauvais voisins sont dans la partie.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous commencez la partie en sachant combien de paires de mauvais voisins sont dans la partie."
+	},
+	{
+		"id": "Empathe",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/empath.png",
+		"name": "Empathe",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 36,
+		"firstNightReminder": "Indiquez combien de joueurs sont mauvais parmis les voisins de l'empathe.",
+		"otherNight": 53,
+		"otherNightReminder": "Indiquez combien de joueurs sont mauvais parmis les voisins vivants de l'empathe.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprennez combien de joueurs sont mauvais pamis vos voisins vivants."
+	},
+	{
+		"id": "Voyant",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/fortuneteller.png",
+		"name": "Voyant",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 37,
+		"firstNightReminder": "Le Voyant désigne deux joueurs. Indiquez si, oui ou non, l'un d'eux est le Démon (ou la fausse piste).",
+		"otherNight": 54,
+		"otherNightReminder": "Le Voyant désigne deux joueurs. Indiquez si, oui ou non, l'un d'eux est le Démon (ou la fausse piste).",
+		"reminders": [
+			"Fausse piste"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez 2 joueurs : vous apprennez si l'un des deux est le Démon. L'un des bons joueurs vous apparait comme un Démon aussi."
+	},
+	{
+		"id": "Fossoyeur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/undertaker.png",
+		"name": "Fossoyeur",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 56,
+		"otherNightReminder": "Si un joueur est mort par execution aujourd'hui: indiquez le personnage du joueur exécuté.",
+		"reminders": [
+			"Executé"
+		],
+		"setup": false,
+		"ability": "Chaque nuit*, si un joueur est mort par exécution pendant la journée, vous apprenez son personnage."
+	},
+	{
+		"id": "Moine",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/monk.png",
+		"name": "Moine",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 13,
+		"otherNightReminder": "Le joueur précédement protégé ne l'est plus. Le Moine désigne un joueur (autre que lui-même). Marquez ce joueur comme protégé.",
+		"reminders": [
+			"Protégé"
+		],
+		"setup": false,
+		"ability": "Chaque nuit*, choisissez un joueur autre que vous-même: il est à l'abris du Démon cette nuit."
+	},
+	{
+		"id": "Corbeau",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/ravenkeeper.png",
+		"name": "Corbeau",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 42,
+		"otherNightReminder": "Si le Corbeau est mort cette nuit: Le Corbeau désigne un joueur. Indiquez le rôle de ce joueur.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous mourrez la nuit, vous êtes reveillé pour choisir un joueur et apprenez son rôle."
+	},
+	{
+		"id": "Vierge",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/virgin.png",
+		"name": "Vierge",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "La première fois que vous êtes accusé, si la personne qui vous accuse est un villageois, elle est exécutée immédiatement."
+	},
+	{
+		"id": "Tueur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/slayer.png",
+		"name": "Tueur",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une seule fois par partie, pendant la journée, désignez publiquement un joueur: s'il est le Démon, il meurt."
+	},
+	{
+		"id": "Soldat",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/soldier.png",
+		"name": "Soldat",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Le Démon ne peut pas vous faire de mal."
+	},
+	{
+		"id": "Maire",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mayor.png",
+		"name": "Maire",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "S'il ne reste que 3 joueurs en vie et que la journée se termine sans exécution, votre équipe remporte la partie. Si vous mourez la nuit, un autre joueur peut mourir à votre place."
+	},
+	{
+		"id": "Majordome",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/butler.png",
+		"name": "Majordome",
+		"edition": "tb",
+		"team": "outsider",
+		"firstNight": 38,
+		"firstNightReminder": "Le Majordome désigne un joueur. Marquez ce joueur comme 'Maître'.",
+		"otherNight": 55,
+		"otherNightReminder": "Le Majordome désigne un joueur. Marquez ce joueur comme 'Maître'.",
+		"reminders": [
+			"Maître"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur autre que vous même: demain, vos votes ne seront comptabilisés que si votre maître a voté aussi."
+	},
+	{
+		"id": "Ivrogne",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/drunk.png",
+		"name": "Ivrogne",
+		"edition": "tb",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"remindersGlobal": [
+			"Ivre"
+		],
+		"setup": true,
+		"ability": "Vous ne savez pas que vous êtres l'Ivrogne. Vous croyez avoir un rôle de villageois, mais vous ne l'avez pas."
+	},
+	{
+		"id": "Reclus",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/recluse.png",
+		"name": "Reclus",
+		"edition": "tb",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous pouvez apparaitre comme mauvais avec un rôle de Serviteur ou de Démon, même après votre mort."
+	},
+	{
+		"id": "LeSaint",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/saint.png",
+		"name": "Saint",
+		"edition": "tb",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous mourez par exécution, votre équipe perd la partie."
+	},
+	{
+		"id": "Empoisonneur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/poisoner.png",
+		"name": "Empoisonneur",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 17,
+		"firstNightReminder": "L'empoisonneur désigne un joueur, marquez le comme empoisonné.",
+		"otherNight": 8,
+		"otherNightReminder": "Le joueur précédement empoisonné ne l'est plus. L'empoisonneur désigne un joueur. Ce joueur est empoisonné.",
+		"reminders": [
+			"Empoisonné"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur: Il est empoisonné jusqu'à la tombée de la nuit."
+	},
+	{
+		"id": "Espion",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/spy.png",
+		"name": "Espion",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 48,
+		"firstNightReminder": "Montrez votre grimoire à l'espion pour aussi longtemps qu'il en a besoin.",
+		"otherNight": 68,
+		"otherNightReminder": "Montrez votre grimoire à l'espion pour aussi longtemps qu'il en a besoin.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous voyez le Grimoire du Narrateur. Vous pouvez apparaitre comme Bon avec un rôle de Villageois ou d'Etranger, même après votre mort."
+	},
+	{
+		"id": "Gourgandin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/scarletwoman.png",
+		"name": "Gourgandin",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 20,
+		"otherNightReminder": "Si le Démon est mort (et que la partie n'a pas pris fin), informez le Gourgandin qu'il devient le Démon.",
+		"reminders": [
+			"Démon"
+		],
+		"setup": false,
+		"ability": "S'il y a au moins 5 joueurs en vie au moment de la mort du Démon, vous devenez le Démon. (Les voyageurs ne comptent pas)"
+	},
+	{
+		"id": "LeBaron",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/baron.png",
+		"name": "Baron",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": true,
+		"ability": "Il y a des étrangers supplémentaires en jeu. [+2 Etrangers]"
+	},
+	{
+		"id": "Diablotin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/imp.png",
+		"name": "Diablotin",
+		"edition": "tb",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 24,
+		"otherNightReminder": "Le Diablotin désigne un joueur, ce joueur meurt. Si le diablotin se choisit lui même, l'un de ses Serviteurss encore en vie devient le Diablotin.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit*, désignez un joueur: il meurt. Si vous vous suicidez de cette façon, l'un de vos Serviteurs encore en vie devient le Diablotin."
+	},
+	{
+		"id": "Bureaucrate",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/bureaucrat.png",
+		"name": "Bureaucrate",
+		"edition": "tb",
+		"team": "traveler",
+		"firstNight": 1,
+		"firstNightReminder": "Le Bureaucrate indique un joueur. Placez le marqueur 'triple vote' sur ce joueur.",
+		"otherNight": 1,
+		"otherNightReminder": "Le Bureaucrate indique un joueur. Placez le marqueur 'triple vote' sur ce joueur.",
+		"reminders": [
+			"triple vote"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un autre joueur: ses votes comptent triple jusqu'à la tombée de la nuit."
+	},
+	{
+		"id": "Voleur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/thief.png",
+		"name": "Voleur",
+		"edition": "tb",
+		"team": "traveler",
+		"firstNight": 1,
+		"firstNightReminder": "Le Voleur désigne un joueur. Placez le marqueur 'Vote négatif' sur ce joueur.",
+		"otherNight": 1,
+		"otherNightReminder": "Le Voleur désigne un joueur. Placez le marqueur 'Vote négatif' sur ce joueur.",
+		"reminders": [
+			"Vote négatif"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un autre joueur: ses votes comptent négativement jusqu'à la tombée de la nuit."
+	},
+	{
+		"id": "Pistolero",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/gunslinger.png",
+		"name": "Pistolero",
+		"edition": "tb",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque jour, après que les votes de la première accusation aient été comptabilisés. Vous pouvez désigner l'un des joueurs qui a voté: il meurt."
+	},
+	{
+		"id": "BoucEmissaire",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/scapegoat.png",
+		"name": "Bouc émissaire",
+		"edition": "tb",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si un joueur du même alignement que vous est exécuté, vous pouvez être executé à sa place."
+	},
+	{
+		"id": "Mendiant",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/beggar.png",
+		"name": "Mendiant",
+		"edition": "tb",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous avez besoin d'un jeton de vote pour pouvoir voter. Les joueurs morts peuvent vous offrir leurs jetons de vote. S'ils le font, vous apprennez leur alignement. Vous êtes toujours sobre et en bonne santé."
+	},
+	{
+		"id": "Grand-mère",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/grandmother.png",
+		"name": "Grand-mère",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 39,
+		"firstNightReminder": "Indiquez à la Grand-mère qui est son Petit-fils.",
+		"otherNight": 50,
+		"otherNightReminder": "Si le Petit-Fils a été tué par le Démon cette nuit: la grand mère meurt.",
+		"reminders": [
+			"Petit-fils"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en connaissant le rôle de villageois d’un autre joueur. Si ce joueur est tué par le Démon, vous mourez aussi"
+	},
+	{
+		"id": "Marin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/sailor.png",
+		"name": "Marin",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 10,
+		"firstNightReminder": "Le Marin désigne un autre joueur. Le marin ou le joueur qu'il a désigné est ivre jusqu'à la tombée de la nuit.",
+		"otherNight": 4,
+		"otherNightReminder": "Le joueur précédement ivre ne l'est plus. Le Marin désigne un autre joueur. Le marin ou le joueur qu'il a désigné est ivre jusqu'à la rombée de la nuit.",
+		"reminders": [
+			"Ivre"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur vivant : l’un de vous deux est ivre jusqu’à la tombée de la nuit. Vous ne pouvez pas mourir."
+	},
+	{
+		"id": "FemmeDeChambre",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/chambermaid.png",
+		"name": "Femme de chambre",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 50,
+		"firstNightReminder": "La Femme de chambre désigne deux autres joueurs vivants. Indiquez combien parmis eux ont été reveillés pour leur pouvoir cette nuit.",
+		"otherNight": 70,
+		"otherNightReminder": "La Femme de chambre désigne deux autres joueurs vivants. Indiquez combien parmis eux ont été reveillés pour leur pouvoir cette nuit.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, désignez 2 joueurs vivants (à part vous-même) : vous apprenez combien ont été réveillés à cause de leur pouvoir cette nuit."
+	},
+	{
+		"id": "Exorciste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/exorcist.png",
+		"name": "Exorciste",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 22,
+		"otherNightReminder": "L'Exorciste désigne un joueur, différent de la nuit précédente. Si ce joueur est le Démon: informez le qu'il a été identifié par l'Exorciste et dévoilez-lui qui est l'Exorciste. Ne réveillez pas le Démon pour utiliser son pouvoir cette nuit.",
+		"reminders": [
+			"Exorcisé"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur (différent de la nuit précédente) : si vous le choisissez, le Démon ne se réveille pas et apprend qui vous êtes."
+	},
+	{
+		"id": "Aubergiste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/innkeeper.png",
+		"name": "Aubergiste",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 9,
+		"otherNightReminder": "Les joueurs ivres et protégés désignés précédement ne le sont plus. L'Aubergiste désigne 2 joueurs. Ils sont protégés. L'un des 2 est ivre.",
+		"reminders": [
+			"Protégé",
+			"Ivre"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez 2 joueurs : ils ne peuvent pas mourir cette nuit, mais l’un d’entre eux est ivre jusqu’à la tombée de la nuit."
+	},
+	{
+		"id": "Joueur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/gambler.png",
+		"name": "Joueur",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 11,
+		"otherNightReminder": "Le Joueur désigne un joueur, et un rôle. S'ils ne correspondent pas, le Joueur meurt.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur et devinez son rôle : si vous vous trompez, vous mourez."
+	},
+	{
+		"id": "Commère",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/gossip.png",
+		"name": "Commère",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 47,
+		"otherNightReminder": "Si les annonces publiques de la Commère étaient vraie aujourd'hui: choisisser un joueur non protégé. Ce joueur meurt.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque jour, vous pouvez faire une annonce. Si elle est vraie, cette nuit, un joueur meurt."
+	},
+	{
+		"id": "Courtisan",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/courtier.png",
+		"name": "Courtisan",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 19,
+		"firstNightReminder": "Le Courtisan décide d'utiliser ou non son pouvoir. S'il le fait, il désigne un rôle: Si ce rôle est en jeu, il devient ivre.",
+		"otherNight": 10,
+		"otherNightReminder": "S'il ne l'a pas déjà fait, Le Courtisan décide d'utiliser ou non son pouvoir. S'il le fait, il désigne un rôle: Si ce rôle est en jeu, il devient ivre pour 3 jours et 3 nuits.",
+		"reminders": [
+			"Ivre 3",
+			"Ivre 2",
+			"Ivre 1",
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez un rôle : il est ivre pour 3 jours et 3 nuits."
+	},
+	{
+		"id": "Professeur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/professor.png",
+		"name": "Professeur",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 45,
+		"otherNightReminder": "S'il ne l'a pas déjà fait, Le Professeur décide d'utiliser ou non sa capacité. S'il le fait, il désigne un joueur mort. Si c'est un villageois, il est ressucité.",
+		"reminders": [
+			"Vivant",
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez un joueur mort: si c'est un villageois, il est ressucité."
+	},
+	{
+		"id": "Ménestrel",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/minstrel.png",
+		"name": "Ménestrel",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Village Ivre"
+		],
+		"setup": false,
+		"ability": "Quand un Serviteur est exécuté, tous les autres joueurs (sauf les Voyageurs) sont ivres jusqu’à la tombée de la nuit."
+	},
+	{
+		"id": "DameAuThé",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/tealady.png",
+		"name": "Dame au thé",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Immortel"
+		],
+		"setup": false,
+		"ability": "Si vos voisins vivants sont bons, ils ne peuvent pas mourir."
+	},
+	{
+		"id": "Pacifiste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/pacifist.png",
+		"name": "Pacifiste",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Les bons joueurs exécutés peuvent ne pas mourir."
+	},
+	{
+		"id": "Fou",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/fool.png",
+		"name": "Fou",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "La première fois que vous mourez, vous ne mourez pas."
+	},
+	{
+		"id": "Bricoleur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/tinker.png",
+		"name": "Bricoleur",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 48,
+		"otherNightReminder": "Le bricoleur peut mourir à tout moment.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Vous pouvez mourir à tout moment."
+	},
+	{
+		"id": "Lune",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/moonchild.png",
+		"name": "Lunaire",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 49,
+		"otherNightReminder": "Si le Lunaire a désigné un joueur et que ce joueur est bon: le joueur désigné meurt.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Quand vous apprenez votre mort, désignez un joueur vivant. Cette nuit, s’il était bon, il meurt."
+	},
+	{
+		"id": "LeGoon",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/goon.png",
+		"name": "Homme de main",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Ivre"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, le premier joueur qui vous désigne avec son pouvoir est ivre jusqu’à la tombée de la nuit. Vous acquierez son alignement."
+	},
+	{
+		"id": "Aliéné",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/lunatic.png",
+		"name": "Aliéné",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 7,
+		"firstNightReminder": "S'il y a 7 joueurs ou plus: Indiquez à l'Aliéné un nombre de rôles de Serviteurs correspondant au nombre de Serviteurs en jeu et des joueurs pour chacuns de ces personnages. Montrez 3 jetons de personnages bons de votre choix. Si le faux personnage de Démon assigné à l'Aliéné a des actions de nuit, prétendez que vous lui faites réaliser ces actions. Placez leur(s) marqueur(s) d'attaque(s). Réveillez le vrai Démon. Dévoilez au Démon les véritables Serviteurs et 3 bons personnages qui ne sont pas en jeu. Dévoilez au Démon qui est l'Aliéné. Si ll'aliéné a attaqué des joueurs: Dévoilez au véritable Démon les joueurs marqués puis retirez les marqueurs de l'Aliéné.",
+		"otherNight": 21,
+		"otherNightReminder": "Permettez à l'Aliéné de réaliser les actions du Démon qu'il croit être. Placez leur marqueur d'attaque. Si l'Aliéné a indiqué des joueurs: Reveillez le Démon. Dévoilez au Démon les marqueurs de l'Aliéné. Retirez les marqueurs de l'Aliéné.",
+		"reminders": [
+			"Attaque 1",
+			"Attaque 2",
+			"Attaque 3",
+			"Aliéné",
+			"Faux Zombuul",
+			"Faux Pukka",
+			"Faux Shabaloth",
+			"Faux Po"
+		],
+		"setup": true,
+		"ability": "Vous croyez être le Démon mais vous ne l’êtes pas. Le Démon sait qui vous êtes et qui vous désignez chaque nuit."
+	},
+	{
+		"id": "Parrain",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/godfather.png",
+		"name": "Parrain",
+		"edition": "bmr",
+		"team": "minion",
+		"firstNight": 21,
+		"firstNightReminder": "Dévoilez les rôles d'étrangers en jeu.",
+		"otherNight": 38,
+		"otherNightReminder": "Si un étranger est mort aujourd'hui: le Parrain désigne un joueur. Ce joueur meurt.",
+		"reminders": [
+			"Mort Aujourd'hui",
+			"Mort"
+		],
+		"setup": true,
+		"ability": "Vous commencez la partie en connaissant tous les rôles d’Étrangers en jeu. Si l’un d’eux meurt aujourd’hui, désignez un joueur cette nuit : il meurt. (-1 ou +1 Étranger)"
+	},
+	{
+		"id": "Avocat",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/devilsadvocate.png",
+		"name": "Avocat du diable",
+		"edition": "bmr",
+		"team": "minion",
+		"firstNight": 22,
+		"firstNightReminder": "L'avocat du Diable désigne un joueur vivant. Si ce joueur est executé demain, il ne meurt pas.",
+		"otherNight": 14,
+		"otherNightReminder": "L'avocat du Diable désigne un joueur vivant différent de la nuit précédente. Si ce joueur est executé demain, il ne meurt pas.",
+		"reminders": [
+			"Survit aux exécutions"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur vivant (différent de la nuit précédente) : s’il est exécuté demain, il ne meurt pas."
+	},
+	{
+		"id": "LAssassin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/assassin.png",
+		"name": "Assassin",
+		"edition": "bmr",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 37,
+		"otherNightReminder": "S'il ne l'a pas déjà fait, L'Assassin décide d'utiliser ou non son pouvoir. S'il le fait, il désigne un joueur. Ce joueur meurt même s'il ne devrait pas pouvoir mourrir pour une raison quelconque.",
+		"reminders": [
+			"Mort",
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez un joueur : il meurt, même si, pour une raison ou une autre, il ne devrait pas pouvoir mourir."
+	},
+	{
+		"id": "Cerveau",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mastermind.png",
+		"name": "Cerveau",
+		"edition": "bmr",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si le Démon est exécuté (mettant fin à la partie), jouez une journée de plus. Si un joueur est exécuté durant cette journée, son équipe perd."
+	},
+	{
+		"id": "Zombulle",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/zombuul.png",
+		"name": "Zombuul",
+		"edition": "bmr",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 25,
+		"otherNightReminder": "Si personne n'est mort aujourd'hui: Le Zombuul désigne un joueur. Ce joueur meurt.",
+		"reminders": [
+			"Mort Aujourd'hui",
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, si personne n’est mort aujourd’hui, désignez un joueur : il meurt. La première fois que vous mourez, vous vivez mais apparaissez mort."
+	},
+	{
+		"id": "LePukka",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/pukka.png",
+		"name": "Pukka",
+		"edition": "bmr",
+		"team": "demon",
+		"firstNight": 28,
+		"firstNightReminder": "Le Pukka désigne un joueur. Ce joueur est empoisonné.",
+		"otherNight": 26,
+		"otherNightReminder": "Le Pukka désigne un joueur. Ce joueur est empoisonné. Le joueur précédement empoisonné meurt et devient sain.",
+		"reminders": [
+			"Empoisonné",
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur : il est empoisonné. Le joueur précédemment empoisonné meurt et devient sain."
+	},
+	{
+		"id": "LeShabaloth",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/shabaloth.png",
+		"name": "Shabaloth",
+		"edition": "bmr",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 27,
+		"otherNightReminder": "L'un des joueurs désignés par le Shabaloth la nuit précédente peut être régurgité. Le Shabaloth désigne deux joueurs. Ces joueurs meurent.",
+		"reminders": [
+			"Mort",
+			"Vivant"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez 2 joueurs : ils meurent. Un joueur que vous avez désigné la nuit précédente peut être régurgité."
+	},
+	{
+		"id": "LePo",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/po.png",
+		"name": "Po",
+		"edition": "bmr",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 28,
+		"otherNightReminder": "Si le Po n'a désigné personne la nuit précédente: Le Po choisit 3 joueurs. Sinon, il n'en choisit qu'un. Les joueurs désignés meurent",
+		"reminders": [
+			"Mort",
+			"3 Attaques"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, vous pouvez désigner un joueur : il meurt. Si votre dernier choix ne portait sur personne, choisissez 3 joueurs cette nuit."
+	},
+	{
+		"id": "Apprenti",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/apprentice.png",
+		"name": "Apprenti",
+		"edition": "bmr",
+		"team": "traveler",
+		"firstNight": 1,
+		"firstNightReminder": "Indiquez à l'apprenti à quelle équipe il appartient et de rôle il acquiert la capacité. Dans le grimmoire, remplacez l'Apprenti par le personnage dont il copie le pouvoir et marquez le comme apprenti.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Apprenti"
+		],
+		"setup": false,
+		"ability": "Au cours de votre première nuit, vous acquerez une capacité de villageois si vous êtes bon, ou une capacité de Serviteur si vous êtes mauvais."
+	},
+	{
+		"id": "Matronne",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/matron.png",
+		"name": "Matronne",
+		"edition": "bmr",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque jour, vous pouvez choisir 3 paires de joueurs et échanger leurs sièges. Les joueurs ne peuvent pas quitter leurs sièges pour parler en privé."
+	},
+	{
+		"id": "Juge",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/judge.png",
+		"name": "Juge",
+		"edition": "bmr",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, si un autre joueur a été accusé, vous pouvez forcer le résultat du vote à réussir ou à échouer."
+	},
+	{
+		"id": "Evêque",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/bishop.png",
+		"name": "Evêque",
+		"edition": "bmr",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Nomination Bon",
+			"Nomination Mauvais"
+		],
+		"setup": false,
+		"ability": "Seul le narrateur peut lancer des accusations. Chaque jour au moins un joueur de chaque équipe est accusé."
+	},
+	{
+		"id": "LeVoudon",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/voudon.png",
+		"name": "Voudon",
+		"edition": "bmr",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Seuls vous et les morts pouvez voter. Les morts n'ont pas besoin de jetons pour voter. La majorité à 50% n'est pas requise pour placer l'accusé sur la potence."
+	},
+	{
+		"id": "Horloger",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/clockmaker.png",
+		"name": "Horloger",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 40,
+		"firstNightReminder": "Indiquez à quelle distance le Démon se trouve de son Serviteur le plus proche (en nombre de maisons).",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous commencez la partie en sachant à combien de maisons le Démon se trouve de son Serviteur le plus proche."
+	},
+	{
+		"id": "Rêveur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/dreamer.png",
+		"name": "Rêveur",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 41,
+		"firstNightReminder": "Le Rêveur désigne un joueur. Indiquez lui un personnage bon et un personnage mauvais. L'un de ces deux personnages est ce joueur.",
+		"otherNight": 57,
+		"otherNightReminder": "Le Rêveur désigne un joueur. Indiquez lui un personnage bon et un personnage mauvais. L'un de ces deux personnages est ce joueur.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur (ni vous, ni un voyageur): vous apprenez un personnage bon et un personnage mauvais. l'un des deux est celui de ce joueur."
+	},
+	{
+		"id": "Charmeur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/snakecharmer.png",
+		"name": "Charmeur",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 20,
+		"firstNightReminder": "Le Charmeur de Serpents désigne un joueur. Si ce joueur est le Démon: inversez les personnages et les équipes du Charmeur de Serpents et du Démon. Reveillez-les pour les en informer. Le nouveau Charmeur de Serpents est empoisonné.",
+		"otherNight": 12,
+		"otherNightReminder": "Le Charmeur de Serpents désigne un joueur. Si ce joueur est le Démon: inversez les personnages et les équipes du Charmeur de Serpents et du Démon. Reveillez-les pour les en informer. Le nouveau Charmeur de Serpents est empoisonné.",
+		"reminders": [
+			"Empoisonné"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur vivant: s'il est le Démon, vous échangez de personnage et d'équipe avec lui, puis il est définitivement empoisonné."
+	},
+	{
+		"id": "Mathématicien",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mathematician.png",
+		"name": "Mathématicien",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 51,
+		"firstNightReminder": "Indiquez combien de pouvoirs ont dysfonctionné à cause du pouvoir d'un autre joueur depuis la fin de la nuit précédente.",
+		"otherNight": 71,
+		"otherNightReminder": "Indiquez combien de pouvoirs ont dysfonctionné à cause du pouvoir d'un autre joueur depuis la fin de la nuit précédente.",
+		"reminders": [
+			"Anormal"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprennez combien de pouvoirs ont dysfonctionné depuis le début de la journée à cause des pouvoirs d'autres joueurs."
+	},
+	{
+		"id": "Fleuriste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/flowergirl.png",
+		"name": "Fleuriste",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 58,
+		"otherNightReminder": "Indiquez le le Démon a voté ou non aujourd'hui.",
+		"reminders": [
+			"Démon a voté",
+			"Démon pas voté"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprennez si le Démon a voté aujourd'hui."
+	},
+	{
+		"id": "Crieur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/towncrier.png",
+		"name": "Crieur Publique",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 59,
+		"otherNightReminder": "Indiquez si un Serviteur a été accusé aujourd'hui",
+		"reminders": [
+			"Serviteur pas accusé",
+			"Serviteur accusé",
+			"Accusé",
+			"Pass accusé"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprennez si un Serviteur a été accusé aujourd'hui."
+	},
+	{
+		"id": "LOracle",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/oracle.png",
+		"name": "Oracle",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 60,
+		"otherNightReminder": "Indiquez combien de joueurs morts sont mauvais.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprenez combien de joueurs morts sont mauvais."
+	},
+	{
+		"id": "LeSavant",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/savant.png",
+		"name": "Savant",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque jour, vous pouvez rendre visite au narrateur pour apprendre deux informations en privé: l'une est vraie, l'autre est fausse."
+	},
+	{
+		"id": "Couturier",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/seamstress.png",
+		"name": "Couturier",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 42,
+		"firstNightReminder": "Si le couturier désigne 2 joueurs: indiquez si ces deux joueurs sont dans la même équipe.",
+		"otherNight": 61,
+		"otherNightReminder": "Si le couturier n'a pas encore utilisé son pouvoir et qu'elle désigne 2 joueurs: indiquez si ces deux joueurs sont dans la même équipe.",
+		"reminders": [
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez deux autres joueurs: vous apprenez s'ils sont dans la même équipe."
+	},
+	{
+		"id": "Philosophe",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/philosopher.png",
+		"name": "Philosophe",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 2,
+		"firstNightReminder": "Le Philosophe choisit s'il souhaite utiliser son pouvoir. S'il le fait, il choisir un personnage bon. Si ce personnage n'est pas en jeu, le philosophe gagne son pouvoir. Sinon, ce personnage devient ivre.",
+		"otherNight": 2,
+		"otherNightReminder": "S'il ne l'a pas encore fait, le Philosophe choisit s'il souhaite utiliser son pouvoir. S'il le fait, il choisir un personnage bon. Si ce personnage n'est pas en jeu, le philosophe gagne son pouvoir. Sinon, ce personnage devient ivre.",
+		"reminders": [
+			"Ivre",
+			"Philosophe"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, choisissez un personnage bon: vous gagnez son pouvoir. Si ce personnage était déjà en jeu, il devient ivre."
+	},
+	{
+		"id": "Artiste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/artist.png",
+		"name": "Artiste",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, pendant la journée, posez en privé au narrateur une question fermée."
+	},
+	{
+		"id": "Jongleur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/juggler.png",
+		"name": "Jongleur",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 62,
+		"otherNightReminder": "Si aujourd'hui était la première journée du jongleur: Indiquez lui combien de ses prédictions étaient juste.",
+		"reminders": [
+			"Correcte",
+			"Faux"
+		],
+		"setup": false,
+		"ability": "Lors de votre première journée, devinez publiquement les personnages de 5 joueurs. La nuit suivante, vous apprennez combien vous en avez deviné correctement."
+	},
+	{
+		"id": "LeSage",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/sage.png",
+		"name": "Sage",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 43,
+		"otherNightReminder": "Si le sage a été tué par le Démon: Indiquez lui deux joueur dont l'un est le Démon.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si le Démon vous tue, vous apprennez les noms de deux joueurs. L'un d'eux est le Démon."
+	},
+	{
+		"id": "LeMutant",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mutant.png",
+		"name": "Mutant",
+		"edition": "snv",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous êtes fou d'être étranger, vous pouvez être éxécuté."
+	},
+	{
+		"id": "Bien-aimé",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/sweetheart.png",
+		"name": "Bien-aimé",
+		"edition": "snv",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 41,
+		"otherNightReminder": "Si le bien-aimé est mort aujourd'hui, choisissez un joueur qui sera définitivement ivre.",
+		"reminders": [
+			"Ivre définitif"
+		],
+		"setup": false,
+		"ability": "Quand vous mourrez, 1 joueur devient définitivement ivre."
+	},
+	{
+		"id": "Barbier",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/barber.png",
+		"name": "Barbier",
+		"edition": "snv",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 40,
+		"otherNightReminder": "Si le barbier est mort aujourd'hui: Reveillez le Démon. Le Démon désigne 2 joueurs : reveillez ces joueurs et informez les de leur nouveau personnage.",
+		"reminders": [
+			"Coupes cette nuit",
+			"Echange"
+		],
+		"setup": false,
+		"ability": "Si vous êtes mort aujourd'hui (de jour comme de nuit), le Démon peut désigner 2 joueurs qui ne sont pas un autre Démon et échanger leurs personnages."
+	},
+	{
+		"id": "Empoté",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/klutz.png",
+		"name": "Empoté",
+		"edition": "snv",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Quand vous apprennez votre mort, désignez publiquement un joueur encore en vie: s'il est mauvais: votre équipe a perdu."
+	},
+	{
+		"id": "Jumeau",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/eviltwin.png",
+		"name": "Jumeau maléfique",
+		"edition": "snv",
+		"team": "minion",
+		"firstNight": 23,
+		"firstNightReminder": "Reveillez le Jumeau Maléfique et son Jumeau. Informez les tous deux du rôle de l'autre.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Jumeau"
+		],
+		"setup": false,
+		"ability": "Vous et un joueur de l'équipe adverse connaissez vos personnages respectifs. Si le bon joueur meurt par execution, les mauvais gagnent. Le bien ne peut pas gagner tant que les deux jumeaux sont en vie."
+	},
+	{
+		"id": "Sorcière",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/witch.png",
+		"name": "Sorcière",
+		"edition": "snv",
+		"team": "minion",
+		"firstNight": 24,
+		"firstNightReminder": "S'il reste 4 joueurs ou plus en vie: La sorcière désigne un joueur. Si ce joueur accuse demain, il est exécuté.",
+		"otherNight": 15,
+		"otherNightReminder": "S'il reste 4 joueurs ou plus en vie: La sorcière désigne un joueur. Si ce joueur accuse demain, il est exécuté.",
+		"reminders": [
+			"Maudit"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur: s'il accuse demain, il meurt. S'il ne reste que 3 joueurs en vie, vous perdez ce pouvoir."
+	},
+	{
+		"id": "LeCerenovus",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/cerenovus.png",
+		"name": "Cerenovus",
+		"edition": "snv",
+		"team": "minion",
+		"firstNight": 25,
+		"firstNightReminder": "Le Cerenovus désigne un joueur et un personnage. Reveillez ce joueur. Informez-le qu'il est fou d'être ce personnage. S'il n'est pas convaincant, il peut être exécuté.",
+		"otherNight": 16,
+		"otherNightReminder": "Le Cerenovus désigne un joueur et un personnage. Reveillez ce joueur. Informez-le qu'il est fou d'être ce personnage. S'il n'est pas convaincant, il peut être exécuté.",
+		"reminders": [
+			"Fou"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désigner un joueur et un personnage bon: il est fou d'être ce personnage demain."
+	},
+	{
+		"id": "Chaudronnier",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/pithag.png",
+		"name": "Chaudronnier",
+		"edition": "snv",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 17,
+		"otherNightReminder": "Le Chaudronnier désigne un joueur et un personnage. Si ce personnage n'est pas en jeu: reveillez ce joueur et dévoillez lui son nouveau personnage. Si le personnage est déjà en jeu, rien ne se passe.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur et un personnage. Si ce personnage n'est pas encore en jeu, ce joueur devient ce personnage. Si un Démon est créé ainsi, les morts cette nuit sont arbitraires."
+	},
+	{
+		"id": "LeFangGu",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/fanggu.png",
+		"name": "Fang Gu",
+		"edition": "snv",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 29,
+		"otherNightReminder": "Le Fang Gu désigne un joueur. Ce joueur n'est pas un étranger, il meurt. Si ce personnage est un étranger et qu'il n'y a qu'un seul Fang gu en jeu, le Fang gu meurt à la place du joueur désigné. Le joueur désigné devient un Fang gu et rejoint l'équipe des méchants. Réveillez le nouveau Fang gu. Indiquez lui son nouveau rôle.",
+		"reminders": [
+			"Mort",
+			"Pouvoir épuisé",
+			"Fang gu"
+		],
+		"setup": true,
+		"ability": "Chaque nuit, désignez un joueur: il meurt. Le premier étranger tué ainsi devient un méchants Fang gu et vous mourrez. Il y a un étranger de plus que prévu en ville."
+	},
+	{
+		"id": "LeVigormortis",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/vigormortis.png",
+		"name": "Vigormortis",
+		"edition": "snv",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 32,
+		"otherNightReminder": "Le Vigormortis désigne un joueur. Ce joueur meurt. Si c'est un Serviteur, l'un de ses voisins villageois est empoisonné.",
+		"reminders": [
+			"Mort",
+			"Pouvoir conservé",
+			"Empoisonné"
+		],
+		"setup": true,
+		"ability": "Chaque nuit, désignez un joueur: il meurt. Les Serviteurs que vous tuez conservent leurs pouvoirs après leur mort et empoisonnent l'un de leurs voisins villageois. (-1 Etranger)"
+	},
+	{
+		"id": "LeNoDashii",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/nodashii.png",
+		"name": "No Dashii",
+		"edition": "snv",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 30,
+		"otherNightReminder": "Le No Dashii désigne un joueur. Ce joueur meurt. Les voisins villageois du No Dashii sont empoisonnés.",
+		"reminders": [
+			"Mort",
+			"Empoisonné"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur: il meurt. Vos voisins villageois sont empoisonnés."
+	},
+	{
+		"id": "LeVortox",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/vortox.png",
+		"name": "Vortox",
+		"edition": "snv",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 31,
+		"otherNightReminder": "Le Vortox désigne un joueur. Ce joueur meurt.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur: il meurt. Les pouvoirs des villageois donnent toujours de fausses informations. Chaque jour, si personne n'est executé: les méchants gagnent."
+	},
+	{
+		"id": "LeBarista",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/barista.png",
+		"name": "Barista",
+		"edition": "snv",
+		"team": "traveler",
+		"firstNight": 1,
+		"firstNightReminder": "Le Barista désigne un joueur, reveillez le et indiquez lui s'il est soigné et a l'esprit clair ou s'il bénéficie de double pouvoir. Traitez-le en conséquences.",
+		"otherNight": 1,
+		"otherNightReminder": "Le Barista désigne un joueur, reveillez le et indiquez lui s'il est soigné et a l'esprit clair ou s'il bénéficie de double pouvoir. Traitez-le en conséquences.",
+		"reminders": [
+			"Sobre & Sain",
+			"Double Pouvoir"
+		],
+		"setup": false,
+		"ability": "Chaque nuit désignez un joueur: jusqu'à la tombée de la nuit : soit il devient sobre, sain et n'aura que de vraies informations soit il peut utiliser son pouvoir deux fois aujourd'hui. Il sait de quel bonus il bénéficie."
+	},
+	{
+		"id": "Prostituée",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/harlot.png",
+		"name": "Prostituée",
+		"edition": "snv",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 1,
+		"otherNightReminder": "La prosituée désigne un joueur puis s'endort. Reveillez le joueur désigné, informez le qu'il a été désigné par la prostitué. Le joueur décide s'il accepte ou non de dévoiler son rôle au rique de mourrir. Vous décidez s'ils meurrent tous les deux.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur vivant: s'il est d'accord, vous apprennez son personnage, mais vous pouvez tous les deux mourrir."
+	},
+	{
+		"id": "Boucher",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/butcher.png",
+		"name": "Boucher",
+		"edition": "snv",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque jour, après la première execution, vous pouvez lancer une nouvelle accusation."
+	},
+	{
+		"id": "CollecteurDOs",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/bonecollector.png",
+		"name": "Collecteur d'os",
+		"edition": "snv",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 1,
+		"otherNightReminder": "Le Collecteur d'os peut, s'il n'a pas encore utilisé son pouvoir, désigner un joueur mort. S'il le fait, le joueur désigné peut utiliser son pouvoir jusqu'à la nuit prochaine. (Pensez à le reveiller si son pouvoir s'active la nuit).",
+		"reminders": [
+			"Pouvoir épuisé",
+			"Pouvoir disponible"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez un joueur mort: ce joueur dispose de son pouvoir jusqu'à la nuit prochaine."
+	},
+	{
+		"id": "LeDeviant",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/deviant.png",
+		"name": "Deviant",
+		"edition": "snv",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous avez été drôle aujourd'hui, vous ne pouvez pas mourrir par exil."
+	},
+	{
+		"id": "LeNoble",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/noble.png",
+		"name": "Noble",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 43,
+		"firstNightReminder": "Indiquez 3 joueurs dont un seul est méchant, sans ordre particulier.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Seen"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en connaissant les noms de 3 joueurs, un seul parmis ces 3 joueurs est méchant."
+	},
+	{
+		"id": "ChasseurDePrime",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/bountyhunter.png",
+		"name": "Chasseur de primes",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 45,
+		"firstNightReminder": "Indiquer au chasseur de primes un joueur de l'équipe des méchants. Réveillez le villageois qui fait partie des méchants pour l'informer qu'il est méchant.",
+		"otherNight": 65,
+		"otherNightReminder": "Si le méchant connu par le chasseur de primes est mort, informez-le d'un autre méchant.",
+		"reminders": [
+			"Known"
+		],
+		"setup": true,
+		"ability": "Vous commencez la partie en connaissant le personnage d'un joueur de l'équipe des méchants. Si le personnage que vous connaissez meurt, vous apprennez le personnage d'un autre joueur de l'équipe des méchants. Un des villageois fait partie de l'équipe des méchants."
+	},
+	{
+		"id": "LaPixie",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/pixie.png",
+		"name": "Pixie",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 29,
+		"firstNightReminder": "Indiquez à la Pixie le rôle d'un villageois déjà en jeu.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Mad",
+			"Has ability"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en sachant qu'un rôle de villageois en particulier est en jeu. Si vous vous êtes toujours fait passer pour ce personnage, vous gagnez sa capacité quand il meurt."
+	},
+	{
+		"id": "LeGeneral",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/general.png",
+		"name": "General",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 49,
+		"firstNightReminder": "Indiquez quelle équipe est selon vous en train de mener la partie: les gentils, les méchants ou personne.",
+		"otherNight": 69,
+		"otherNightReminder": "Indiquez quelle équipe est selon vous en train de mener la partie: les gentils, les méchants ou personne.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprenez quelle équipe est en train de mener la partie selon le narrateur: les gentils, les méchants ou personne."
+	},
+	{
+		"id": "Prêcheur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/preacher.png",
+		"name": "Prêcheur",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 14,
+		"firstNightReminder": "Le Prêcheur désigne un joueur. Si c'est un serviteur, réveillez-le et indiquez lui qu'il a été démasqué par le prêcheur. Le serviteur perd ses capacités.",
+		"otherNight": 7,
+		"otherNightReminder": "Le Prêcheur désigne un joueur. Si c'est un serviteur, réveillez-le et indiquez lui qu'il a été démasqué par le prêcheur. Le serviteur perd ses capacités.",
+		"reminders": [
+			"At a sermon"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur: si c'est un serviteur, il perd ses capacités et apprend que vous l'avez démasqué."
+	},
+	{
+		"id": "Roi",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/king.png",
+		"name": "Roi",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 9,
+		"firstNightReminder": "Informez le démon de qui est le roi.",
+		"otherNight": 64,
+		"otherNightReminder": "S'il y a plus de joueurs morts que vivants: révélez au roi le personnage d'un joueur encore en vie.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, s'il y a plus de joueurs morts que vivants, vous apprennez le personnage d'un joueur vivant. Le démon sait qui vous êtes."
+	},
+	{
+		"id": "Montgolfier",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/balloonist.png",
+		"name": "Montgolfier",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 44,
+		"firstNightReminder": "Choisissez un type de personnage. Indiquez à le Montgolfier le personnage d'un joueur qui est de ce type. Marquez ce personnage comme vu par le Montgolfier.",
+		"otherNight": 63,
+		"otherNightReminder": "Choisissez un type de personnage qui n'a pas encore été vu par le Montgolfier. Indiquez à le Montgolfier le personnage d'un joueur qui est de ce type. Marquez ce type de personnage comme vu par le Montgolfier.",
+		"reminders": [
+			"Seen Townsfolk",
+			"Seen Outsider",
+			"Seen Minion",
+			"Seen Demon",
+			"Seen Traveller"
+		],
+		"setup": true,
+		"ability": "Chaque nuit, vous apprennez le personnage d'un joueur d'un type que vous n'avez pas encore vu (Villageois, Etranger, Serviteur, Démon) jusqu'à ce que vous en connaissiez un de chaque. Il y a un étranger de plus que prévu en jeu."
+	},
+	{
+		"id": "Gourou",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/cultleader.png",
+		"name": "Gourou",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 47,
+		"firstNightReminder": "Si le Gourou change d'équipe, réveillez-le pour l'en informer.",
+		"otherNight": 67,
+		"otherNightReminder": "Si le Gourou change d'équipe, réveillez-le pour l'en informer.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous rejoignez l'équipe de l'un de vos voisins vivants. Si tous les bons joueurs choisissent de rejoindre votre secte, votre équipe gagne."
+	},
+	{
+		"id": "LeLycanthrope",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/lycanthrope.png",
+		"name": "Lycanthrope",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 23,
+		"otherNightReminder": "Le Lycanthrope désigne un joueur vivant: s'il est gentil, il meurt, et personne d'aute ne pourra mourrir cette nuit.",
+		"reminders": [
+			"Dead"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur vivant: s'il est gentil, il meur, mais personne d'autre ne pourra mourrir cette nuit."
+	},
+	{
+		"id": "Amnesique",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/amnesiac.png",
+		"name": "Amnesique",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 12,
+		"firstNightReminder": "Décidez de la capacité de l'Amnésiaque. Si sa capacité necessite de le réveiller la nuit: Reveillez l'amnésiaque et faites lui utiliser son pouvoir.",
+		"otherNight": 5,
+		"otherNightReminder": "Si sa capacité necessite de le réveiller la nuit: Reveillez l'amnésiaque et faites lui utiliser son pouvoir.",
+		"reminders": [
+			"?"
+		],
+		"setup": false,
+		"ability": "Vous ne savez pas quelle est votre capacité. Chaque jour, vous pouvez tenter de deviner en privé avec le narrateur: Il vous indique si vous êtes près ou non de deviner."
+	},
+	{
+		"id": "Garde",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/nightguard.png",
+		"name": "Garde de nuit",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 46,
+		"firstNightReminder": "Le Garde de nuit peut désigner un joueur. Reveillez ce joueur, indiquez lui que le garde de nuit se dévoile à lui.",
+		"otherNight": 66,
+		"otherNightReminder": "Le Garde de nuit peut désigner un joueur. Reveillez ce joueur, indiquez lui que le garde de nuit se dévoile à lui.",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez un joueur: ils apprennent qui vous êtes."
+	},
+	{
+		"id": "Ingénieur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/engineer.png",
+		"name": "Ingénieur",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 13,
+		"firstNightReminder": "L'ingénieur décide s'il veut utiliser sa capacité. S'il le fait, il désigne un personnage de démon et autant de personnages de serviteur qu'il y en a en jeu. Remplacez les rôles des joueurs correspondants par les rôles désignez, puis reveillez les un à un pour leur indiquer leurs nouveaux rôles.",
+		"otherNight": 6,
+		"otherNightReminder": "S'il ne l'a pas encore fait, l'ingénieur décide s'il veut utiliser sa capacité. S'il le fait, il désigne un personnage de démon et autant de personnages de serviteur qu'il y en a en jeu. Remplacez les rôles des joueurs correspondants par les rôles désignez, puis reveillez les un à un pour leur indiquer leurs nouveaux rôles.",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, choisissez quel démon et quels serviteurs sont en jeu."
+	},
+	{
+		"id": "Pécheur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/fisherman.png",
+		"name": "Pécheur",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, pendant la journée, vous pouvez rendre visite au narrateur et lui demander un conseil pour remporter la partie."
+	},
+	{
+		"id": "Chasseur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/huntsman.png",
+		"name": "Chasseur",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 30,
+		"firstNightReminder": "Le chasseur décide s'il souhaite utiliser sa compétence. S'il le fait : il désigne un joueur qu'il suppose être la demoiselle, s'il a raison, la demoiselle devient un villageois qui n'est pas encore en jeu.",
+		"otherNight": 51,
+		"otherNightReminder": "S'il ne l'a pas encore fait, le chasseur décide s'il souhaite utiliser sa compétence. S'il le fait : il désigne un joueur qu'il suppose être la demoiselle, s'il a raison, la demoiselle devient un villageois qui n'est pas encore en jeu.",
+		"reminders": [
+			"No ability"
+		],
+		"setup": true,
+		"ability": "Un villageois est remplacé par une demoiselle au début de la partie. Une fois par partie, la nuit, désignez un joueur vivant: la demoiselle, si elle est désignée, devient un personnage de villageois qui n'était pas en jeu."
+	},
+	{
+		"id": "Alchimiste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/alchemist.png",
+		"name": "Alchimiste",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 3,
+		"firstNightReminder": "Indiquez à l'alchimiste de quelle capacité il dispose.",
+		"otherNight": 0,
+		"otherNightReminder": "Si la capacité de l'alchimiste s'utilise la nuit, réveillez le.",
+		"reminders": [],
+		"remindersGlobal": [
+			"Is the Alchemist"
+		],
+		"setup": false,
+		"ability": "Vous avez la capacité d'un serviteur qui n'est pas en jeu."
+	},
+	{
+		"id": "Fermier",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/farmer.png",
+		"name": "Fermier",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 46,
+		"otherNightReminder": "Si le fermier est mort aujourd'hui: Réveillez un villageois et indiquez lui qu'il est devenu le fermier.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous mourrez la nuit, Un joueur vivant devient le fermier."
+	},
+	{
+		"id": "Magicien",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/magician.png",
+		"name": "Magicien",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Le Demon croit que vous êtes un serviteur. Les serviteurs croient que vous êtes le Demon."
+	},
+	{
+		"id": "EnfantDeChoeur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/choirboy.png",
+		"name": "Enfant de choeur",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 44,
+		"otherNightReminder": "Si le roi a été tué par le démon: réveillez l'enfant de choeur et dévoilez lui quel joueur est le démon.",
+		"reminders": [],
+		"setup": true,
+		"ability": "Il y a un roi dans la partie. Si le démon tue le roi, vous apprennez quel joueur est le démon."
+	},
+	{
+		"id": "Pavot",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/poppygrower.png",
+		"name": "Cultivateur de pavot",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 4,
+		"firstNightReminder": "Ne donnez pas les informations sur leurs alliés au démon et aux serviteurs.",
+		"otherNight": 3,
+		"otherNightReminder": "Si le cultivateur de pavot est mort: Indiquez au démon et à ses serviteurs qui sont leurs alliés.",
+		"reminders": [
+			"Evil wakes"
+		],
+		"setup": false,
+		"ability": "Le démon et ses serviteurs n'apprennent pas qui sont leurs alliés en début de partie. Si vous mourrez, ils l'apprennent la nuit suivante."
+	},
+	{
+		"id": "Athée",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/atheist.png",
+		"name": "Athée",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": true,
+		"ability": "Il n'y a pas de méchant dans la partie. Le narrateur peut briser les règles du jeu et si exécuté, les gentils ont gagné."
+	},
+	{
+		"id": "Cannibale",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/cannibal.png",
+		"name": "Cannibale",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Poisoned",
+			"Died today"
+		],
+		"setup": false,
+		"ability": "Vous avez la capacité de la dernière personne executée. Si c'est un méchant, vous êtes empoisonné jusqu'à ce qu'un gentil meurre par execution."
+	},
+	{
+		"id": "Balance",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/snitch.png",
+		"name": "Balance",
+		"edition": "",
+		"team": "outsider",
+		"firstNight": 6,
+		"firstNightReminder": "Reveillez les serviteurs séparement et indiquez leur 3 personnages qui ne sont pas en jeu. Ces personnages peuvent différer ou être les mêmes que ceux montrés à d'autres serviteurs et/ou au Démon.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Les serviteurs commencent la partie en connaissant 3 personnages qui ne sont pas en jeu."
+	},
+	{
+		"id": "Acrobate",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/acrobat.png",
+		"name": "Acrobate",
+		"edition": "",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 39,
+		"otherNightReminder": "Si l'un de ses voisins villageois est ivre ou empoisonné, l'accrobate meurt.",
+		"reminders": [
+			"Dead"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, si l'un de vos voisins villageois est ivre ou empoisonné, vous mourrez."
+	},
+	{
+		"id": "LePuzzlemaster",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/puzzlemaster.png",
+		"name": "Le maitre des puzzles",
+		"edition": "",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Drunk",
+			"Guess used"
+		],
+		"setup": false,
+		"ability": "Un joueur est ivre de façon permanente, même après votre mort. Une fois par partie, en privé, vous pouvez tenter de deviner qui est le joueur ivre. Si vous voyez juste, le narrateur vous dévoile qui est le démon, si vous vous trompé, il vous indique un autre joueur comme étant le démon."
+	},
+	{
+		"id": "Hérétique",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/heretic.png",
+		"name": "Hérétique",
+		"edition": "",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "L'équipe gagnante a perdu et l'équipe perdante a gagné, même si vous êtes mort."
+	},
+	{
+		"id": "Demoiselle",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/damsel.png",
+		"name": "Demoiselle",
+		"edition": "",
+		"team": "outsider",
+		"firstNight": 31,
+		"firstNightReminder": "Réveillez tous les serviteurs, informez les que la demoiselle est en jeu.",
+		"otherNight": 52,
+		"otherNightReminder": "Si sélectionnée par le chasseur, la demoiselle devient un villageois qui n'était pas en jeu.",
+		"reminders": [
+			"Guess used"
+		],
+		"setup": false,
+		"ability": "Les serviteurs savent que votre personnage est en jeu. Une fois par partie, un serviteur peut tenter d'annoncer publiquement quel joueur est selon lui la demoiselle, s'il voit juste, votre équipe a perdu."
+	},
+	{
+		"id": "LeGolem",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/golem.png",
+		"name": "Golem",
+		"edition": "",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Can not nominate"
+		],
+		"setup": false,
+		"ability": "Vous ne pouvez accuser qu'une fois par partie. Quand vous le faites, si l'accusé n'est pas le démon, il meurt."
+	},
+	{
+		"id": "Politicien",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/politician.png",
+		"name": "Politicien",
+		"edition": "",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous étiez le principal responsable de la défaite de votre équipe, vous changez d'équipe et gagnez, même si vous êtes mort."
+	},
+	{
+		"id": "Veuf",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/widow.png",
+		"name": "Veuf",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 18,
+		"firstNightReminder": "Montrez le grimmoire au Veuf aussi longtemps qu'il le souhaite. Le Veuf désigne un joueur. Ce joueur est empoisonné. Reveillez un joueur de l'équipe des gentils. Indiquez-lui qu'il y a une Veuve dans la partie.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Poisoned"
+		],
+		"remindersGlobal": [
+			"Knows"
+		],
+		"setup": false,
+		"ability": "Lors de votre première nuit, regardez le grimmoire et désignez un joueur: il est empoisonné. Un des joueurs de l'équipe des gentils sait qu'il y a une Veuve dans la partie."
+	},
+	{
+		"id": "SemeurDePeur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/fearmonger.png",
+		"name": "Semeur de peur",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 26,
+		"firstNightReminder": "Le Semeur de peur désigne un joueur. Placez le marqueur 'Fear' sur le joueur désigné.",
+		"otherNight": 18,
+		"otherNightReminder": "Le Semeur de peur désigne un joueur. Si le joueur désigné l'est plus le même que la nuit précédente, déplacez le marqueur 'Fear'.",
+		"reminders": [
+			"Fear"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur. S'il est accusé par vous et exécuté, son équipe perd. Tout le monde sait qui a été désigné par le semeur de peur."
+	},
+	{
+		"id": "Psychopathe",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/psychopath.png",
+		"name": "Psychopathe",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque jour, avant les accusations, vous pouvez désigner publiquement un joueur: il meurt. Si vous êtes exécuté, vous ne mourrez que si vous perdez à pierre-feuille-ciseaux."
+	},
+	{
+		"id": "LeGoblin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/goblin.png",
+		"name": "Goblin",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Claimed"
+		],
+		"setup": false,
+		"ability": "Si vous déclarez publiquement que vous êtes le Goblin quand vous êtes accusé et que vous êtes quand même exécuté la même journée, votre équipe gagne."
+	},
+	{
+		"id": "LeMephit",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mephit.png",
+		"name": "Mephit",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 27,
+		"firstNightReminder": "Indiquez au Mephit son mot secret.",
+		"otherNight": 19,
+		"otherNightReminder": "Si un joueur de l'équipe des gentil a pronnoncé le mot secret aujourd'hui: réveillez-le et informez-le qu'il fait maintenant partie de l'équipe des méchants.",
+		"reminders": [
+			"Turns evil",
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Vous commencez la partie en connaissant un mot secret. La première fois qu'un joueur gentil prononce ce mot en présence du narrateur, il devient méchant la nuit suivante, sans changer de rôle."
+	},
+	{
+		"id": "LeMezepheles",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mezepheles.png",
+		"name": "Mezepheles",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 27,
+		"firstNightReminder": "Indiquez au Mezepheles son mot secret.",
+		"otherNight": 19,
+		"otherNightReminder": "Vous commencez la partie en connaissant un mot secret. La première fois qu'un joueur gentil prononce ce mot en présence du narrateur, il devient méchant la nuit suivante.",
+		"reminders": [
+			"Turns evil",
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Vous connaissez la partie en connaissant un mot secret. La première fois qu'un joueur gentil prononce ce mot en présence du narrateur, il devient méchant la nuit suivante, sans changer de rôle."
+	},
+	{
+		"id": "LaMarionette",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/marionette.png",
+		"name": "Marionette",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 11,
+		"firstNightReminder": "Selectionnez un joueur gentil, voisin du Démon et marquez le comme marionnette. Reveillez le démon et indiquez lui qui est la Marionette.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"remindersGlobal": [
+			"Is the Marionette"
+		],
+		"setup": true,
+		"ability": "Vous croyez être un personnage gentil, mais vous ne l'êtes pas. Le démon sait qui vous êtes et il est votre voisin."
+	},
+	{
+		"id": "LeBoomdandy",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/boomdandy.png",
+		"name": "Boomdandy",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous êtes exécuté, tous les joueurs sauf 3 meurent. 1 minute plus tard, le joueur le plus accusé meurt."
+	},
+	{
+		"id": "BébéMonstre",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/lilmonsta.png",
+		"name": "Bébé Monstre",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 16,
+		"firstNightReminder": "Reveillez tous les serviteurs ensemble, faites les voter pour désigner quel joueur babysit Bébé Monstre. Le joueur désigné meurt.",
+		"otherNight": 36,
+		"otherNightReminder": "Reveillez tous les serviteurs ensemble, faites les voter pour désigner quel joueur babysit Bébé Monstre. Le joueur désigné meurt.",
+		"reminders": [],
+		"remindersGlobal": [
+			"Is the Demon",
+			"Dead"
+		],
+		"setup": true,
+		"ability": "Il y a un serviteur de plus dans la partie. Chaque nuit, les serviteurs choisissent qui sera le babysitter de Bébé Monstre. Un joueur meurt chaque nuit."
+	},
+	{
+		"id": "Sangsue",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/leech.png",
+		"name": "Sangsue",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 15,
+		"firstNightReminder": "La Sangue désigne un joueur. Ce joueur est empoisonné.",
+		"otherNight": 35,
+		"otherNightReminder": "La Sangsue désigne un joueur. Ce joueur meurt.",
+		"reminders": [
+			"Dead",
+			"Poisoned"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, Désignez un joueur: il meurt. Lors de votre première nuit désignez un joueur vivant: il est définitivement empoisonné - Vous mourrez si, et seulement si, ce joueur meurt."
+	},
+	{
+		"id": "Al-Hadikhia",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/alhadikhia.png",
+		"name": "Al-Hadikhia",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 33,
+		"otherNightReminder": "Le Al-Hadikhia désigne 3 joueurs. Annoncez à chacun des joueurs désignés individuellement la liste des désignés, et demandez leur s'ils veulent vivre ou mourrir. A la fin des décisions, chaque joueur devient vivant ou mort conformément à son choix. Si les joueurs ont tous les 3 choisi de vivre, ils meurrent tous les 3.",
+		"reminders": [
+			"1",
+			"2",
+			"3",
+			"Chose death",
+			"Chose life"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, Désignez 3 joueurs (tout le monde sait qui a été désigné): chacun de ces joueurs choisit secretement s'il veut vivre ou mourrir, s'ils choisissent tous les 3 de vivre, ils meurrent tous les 3."
+	},
+	{
+		"id": "Légion",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/legion.png",
+		"name": "Légion",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 34,
+		"otherNightReminder": "Vous pouvez choisir un joueur, Ce joueur meurt.",
+		"reminders": [
+			"Dead",
+			"About to die"
+		],
+		"setup": true,
+		"ability": "La majorité des joueurs sont Légion. Chaque nuit, un joueur peut mourrir. Les exécutions ratent si seuls des joueurs méchants ont voté. Vous apparaissez comme un serviteur."
+	},
+	{
+		"id": "Léviathan",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/leviathan.png",
+		"name": "Léviathan",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 53,
+		"firstNightReminder": "Placez le marqueur 'Jour 1'. Annoncez 'il y a un Léviathan en jeu; Ceci est votre premier jour.'",
+		"otherNight": 73,
+		"otherNightReminder": "Changez le marqueur de jour du Léviathan.",
+		"reminders": [
+			"Day 1",
+			"Day 2",
+			"Day 3",
+			"Day 4",
+			"Day 5",
+			"Good player executed"
+		],
+		"setup": false,
+		"ability": "Si plus d'un joueur gentil est exécuté, vous gagnez. Tous les joueurs savent que votre personnage est en jeu. Après 5 jours, les méchants gagnent."
+	},
+	{
+		"id": "Emeutes",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/riot.png",
+		"name": "Emeutes",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": true,
+		"ability": "Les joueurs accusés sont exécutés immédiatement sans voter et peuvent nomminer à leur tour. Le troisième jour, les joueurs exécutés doivent accuser. Après trois jours, les méchants gagnent. Tous les serviteurs sont des Emeutes."
+	},
+	{
+		"id": "LeGangster",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/gangster.png",
+		"name": "Gangster",
+		"edition": "",
+		"team": "traveler",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Une fois par jour, vous pouvez tuer un de vos voisins vivants, à condition d'avoir la permission de votre autre voisin vivant."
+	}
+]

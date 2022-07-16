@@ -1,0 +1,168 @@
+[
+	{
+		"id": "LeChef",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/chef.png",
+		"name": "Chef",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 35,
+		"firstNightReminder": "Indiquez combien de paires de mauvais sont voisins.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous commencez la partie en sachant combien de paires de voisins sont mauvais."
+	},
+	{
+		"id": "FemmeDeChambre",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/chambermaid.png",
+		"name": "Femme de chambre",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 50,
+		"firstNightReminder": "La Femme de chambre désigne deux autres joueurs vivants. Indiquez combien parmis eux ont été reveillés pour leur pouvoir cette nuit.",
+		"otherNight": 70,
+		"otherNightReminder": "La Femme de chambre désigne deux autres joueurs vivants. Indiquez combien parmis eux ont été reveillés pour leur pouvoir cette nuit.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, désignez 2 joueurs vivants (à part vous-même) : vous apprenez combien ont été réveillés à cause de leur pouvoir cette nuit."
+	},
+	{
+		"id": "Corbeau",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/ravenkeeper.png",
+		"name": "Corbeau",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 42,
+		"otherNightReminder": "Si le corbeau est mort cette nuit: Le corbeau désigne un joueur. Indiquez le personnage de ce joueur.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous mourrez la nuit, vous choisissez un joueur et apprenez son personnage."
+	},
+	{
+		"id": "Empathe",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/empath.png",
+		"name": "Empathe",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 36,
+		"firstNightReminder": "Indiquez combien de joueurs sont mauvais parmis les voisins de l'empathe.",
+		"otherNight": 53,
+		"otherNightReminder": "Indiquez combien de joueurs sont mauvais parmis les voisins vivants de l'empathe.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprennez combien de joueurs sont mauvais pamis vos voisins vivants."
+	},
+	{
+		"id": "Moine",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/monk.png",
+		"name": "Moine",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 13,
+		"otherNightReminder": "Le joueur précédement protégé ne l'est plus. le moine choisi un autre joueur. Marquez ce joueur comme protégé.",
+		"reminders": [
+			"Protected"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, choisissez un joueur autre que vous-même: ils sont à l'abris du Démon cette nuit."
+	},
+	{
+		"id": "Maire",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mayor.png",
+		"name": "Maire",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "S'il ne reste que 3 joueurs en vie et que la journée se termine sans exécution, votre équipe remporte la partie. Si le Démon vous attaque la nuit, un autre joueur peut mourrir à votre place."
+	},
+	{
+		"id": "LeSaint",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/saint.png",
+		"name": "Saint",
+		"edition": "tb",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous mourrez par exécution, votre équipe perd la partie."
+	},
+	{
+		"id": "LeGoon",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/goon.png",
+		"name": "Homme de main",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Ivre"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, le premier joueur qui vous désigne avec son pouvoir est ivre jusqu’à la tombée de la nuit. Vous acquierez son alignement."
+	},
+	{
+		"id": "Empoisonneur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/poisoner.png",
+		"name": "Empoisonneur",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 17,
+		"firstNightReminder": "L'empoisonneur indique un joueur, marquez le comme empoisonné.",
+		"otherNight": 8,
+		"otherNightReminder": "Le joueur précédement empoisonné ne l'est plus. L'empoisonneur désigne un joueur. Ce joueur est empoisonné.",
+		"reminders": [
+			"Poisoned"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur: Ils sont empoisonnés jusqu'à la tombée de la nuit."
+	},
+	{
+		"id": "Avocat",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/devilsadvocate.png",
+		"name": "Avocat du diable",
+		"edition": "bmr",
+		"team": "minion",
+		"firstNight": 22,
+		"firstNightReminder": "L'avocat du Diable désigne un joueur vivant. Si ce joueur est executé demain, il ne meurt pas.",
+		"otherNight": 14,
+		"otherNightReminder": "L'avocat du Diable désigne un joueur vivant différent de la nuit précédente. Si ce joueur est executé demain, il ne meurt pas.",
+		"reminders": [
+			"Survit aux exécutions"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur vivant (différent de la nuit précédente) : s’il est exécuté demain, il ne meurt pas."
+	},
+	{
+		"id": "LeVigormortis",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/vigormortis.png",
+		"name": "Vigormortis",
+		"edition": "snv",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 32,
+		"otherNightReminder": "Le Vigormortis désigne un joueur. Ce joueur meurt. Si c'est un Serviteur, l'un de ses voisins villageois est empoisonné.",
+		"reminders": [
+			"Dead",
+			"Has ability",
+			"Poisoned"
+		],
+		"setup": true,
+		"ability": "Chaque nuit, désignez un joueur: il meurt. Les Serviteurs que vous tuez conservent leurs capacités après leur mort et empoisonnent l'un de leurs voisins villageois. Il y a un étranger de moins que prévu en ville."
+	}
+]

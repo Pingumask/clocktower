@@ -1,0 +1,191 @@
+[
+	{
+		"id": "Montgolfier",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/balloonist.png",
+		"name": "Montgolfier",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 44,
+		"firstNightReminder": "Choisissez un type de personnage. Indiquez à le Montgolfier le personnage d'un joueur qui est de ce type. Marquez ce personnage comme vu par le Montgolfier.",
+		"otherNight": 63,
+		"otherNightReminder": "Choisissez un type de personnage qui n'a pas encore été vu par le Montgolfier. Indiquez à le Montgolfier le personnage d'un joueur qui est de ce type. Marquez ce type de personnage comme vu par le Montgolfier.",
+		"reminders": [
+			"Seen Townsfolk",
+			"Seen Outsider",
+			"Seen Minion",
+			"Seen Demon",
+			"Seen Traveller"
+		],
+		"setup": true,
+		"ability": "Chaque nuit, vous apprennez le personnage d'un joueur d'un type que vous n'avez pas encore vu (Villageois, Etranger, Serviteur, Démon) jusqu'à ce que vous en connaissiez un de chaque. Il y a un étranger de plus que prévu en jeu."
+	},
+	{
+		"id": "LeSavant",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/savant.png",
+		"name": "Savant",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque jour, vous pouvez rendre visite au narrateur pour apprendre deux informations en prové: l'une est vraie, l'autre est fausse."
+	},
+	{
+		"id": "Amnesique",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/amnesiac.png",
+		"name": "Amnesique",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 12,
+		"firstNightReminder": "Décidez de la capacité de l'Amnésiaque. Si sa capacité necessite de le réveiller la nuit: Reveillez l'amnésiaque et faites lui utiliser son pouvoir.",
+		"otherNight": 5,
+		"otherNightReminder": "Si sa capacité necessite de le réveiller la nuit: Reveillez l'amnésiaque et faites lui utiliser son pouvoir.",
+		"reminders": [
+			"?"
+		],
+		"setup": false,
+		"ability": "Vous ne savez pas quelle est votre capacité. Chaque jour, vous pouvez tenter de deviner en privé avec le narrateur: Il vous indique si vous êtes près ou non de deviner."
+	},
+	{
+		"id": "Pécheur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/fisherman.png",
+		"name": "Pécheur",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, pendant la journée, vous pouvez rendre visite au narrateur et lui demander un conseil pour remporter la partie."
+	},
+	{
+		"id": "Artiste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/artist.png",
+		"name": "Artiste",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, pendant la journée, posez en privé au narrateur une question fermée."
+	},
+	{
+		"id": "Cannibale",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/cannibal.png",
+		"name": "Cannibale",
+		"edition": "",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Poisoned",
+			"Died today"
+		],
+		"setup": false,
+		"ability": "Vous avez la capacité de la dernière personne executée. Si c'est un mauvais, vous êtes empoisonné jusqu'à ce qu'un bon meurre par execution."
+	},
+	{
+		"id": "LeMutant",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mutant.png",
+		"name": "Mutant",
+		"edition": "snv",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous êtes fou d'être étranger, vous pouvez être éxécuté."
+	},
+	{
+		"id": "Aliéné",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/lunatic.png",
+		"name": "Aliéné",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 7,
+		"firstNightReminder": "S'il y a 7 joueurs ou plus: Indiquez à l'Aliéné un nombre de rôles de Serviteurs correspondant au nombre de Serviteurs en jeu et des joueurs pour chacuns de ces personnages. Montrez 3 jetons de personnages bons de votre choix. Si le faux personnage de Démon assigné à l'Aliéné a des actions de nuit, prétendez que vous lui faites réaliser ces actions. Placez leur(s) marqueur(s) d'attaque(s). Réveillez le vrai Démon. Dévoilez au Démon les véritables Serviteurs et 3 bons personnages qui ne sont pas en jeu. Dévoilez au Démon qui est l'Aliéné. Si ll'aliéné a attaqué des joueurs: Dévoilez au véritable Démon les joueurs marqués puis retirez les marqueurs de l'Aliéné.",
+		"otherNight": 21,
+		"otherNightReminder": "Permettez à l'Aliéné de réaliser les actions du Démon qu'il croit être. Placez leur marqueur d'attaque. Si l'Aliéné a indiqué des joueurs: Reveillez le Démon. Dévoilez au Démon les marqueurs de l'Aliéné. Retirez les marqueurs de l'Aliéné.",
+		"reminders": [
+			"Attaque 1",
+			"Attaque 2",
+			"Attaque 3",
+			"Aliéné",
+			"Faux Léviathan"
+		],
+		"setup": true,
+		"ability": "Vous croyez être le Démon mais vous ne l’êtes pas. Le Démon sait qui vous êtes et qui vous désignez chaque nuit."
+	},
+	{
+		"id": "Veuf",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/widow.png",
+		"name": "Veuf",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 18,
+		"firstNightReminder": "Montrez le grimmoire au Veuf aussi longtemps qu'il le souhaite. Le Veuf désigne un joueur. Ce joueur est empoisonné. Reveillez un joueur de l'équipe des bons. Indiquez-lui qu'il y a une Veuve dans la partie.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Poisoned"
+		],
+		"remindersGlobal": [
+			"Knows"
+		],
+		"setup": false,
+		"ability": "Lors de votre première nuit, regardez le grimmoire et désignez un joueur: il est empoisonné. Un des joueurs de l'équipe des bons sait qu'il y a une Veuve dans la partie."
+	},
+	{
+		"id": "LeGoblin",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/goblin.png",
+		"name": "Goblin",
+		"edition": "",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Claimed"
+		],
+		"setup": false,
+		"ability": "Si vous déclarez publiquement que vous êtes le Goblin quand vous êtes accusé et que vous êtes quand même exécuté la même journée, votre équipe gagne."
+	},
+	{
+		"id": "Léviathan",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/leviathan.png",
+		"name": "Léviathan",
+		"edition": "",
+		"team": "demon",
+		"firstNight": 53,
+		"firstNightReminder": "Placez le marqueur 'Jour 1'. Annoncez 'il y a un Léviathan en jeu; Ceci est votre premier jour.'",
+		"otherNight": 73,
+		"otherNightReminder": "Changez le marqueur de jour du Léviathan.",
+		"reminders": [
+			"Day 1",
+			"Day 2",
+			"Day 3",
+			"Day 4",
+			"Day 5",
+			"Good player executed"
+		],
+		"setup": false,
+		"ability": "Si plus d'un joueur bon est exécuté, vous gagnez. Tous les joueurs savent que votre personnage est en jeu. Après 5 jours, les mauvais gagnent."
+	}
+]

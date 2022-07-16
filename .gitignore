@@ -1,0 +1,23 @@
+### Node ###
+# node_modules/
+# package-lock.json
+
+### Composer
+# vendor/
+# composer.lock
+
+### Ignore Files and Folders starting with a dot ###
+**/.*
+**/.*/*
+
+### Exceptions to ignored dot files and folders ###
+!.editorconfig
+!.gitignore
+!.prettierrc.json
+!**/.gitkeep
+!**/.*.template
+!**/.*.template.*
+!**/.*.template/*
+
+### VisualStudioCode ###
+*.code-workspace

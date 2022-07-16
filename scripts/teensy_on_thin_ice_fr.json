@@ -1,0 +1,177 @@
+[
+	{
+		"id": "Artiste",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/artist.png",
+		"name": "Artiste",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, pendant la journée, posez en privé au narrateur une question fermée."
+	},
+	{
+		"id": "Professeur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/professor.png",
+		"name": "Professeur",
+		"edition": "bmr",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 45,
+		"otherNightReminder": "S'il ne l'a pas déjà fait, Le Professeur décide d'utiliser ou non sa capacité. S'il le fait, il désigne un joueur mort. Si c'est un villageois, il est ressucité.",
+		"reminders": [
+			"Vivant",
+			"Pouvoir épuisé"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez un joueur mort: si c'est un villageois, il est ressucité."
+	},
+	{
+		"id": "Tueur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/slayer.png",
+		"name": "Tueur",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une seule fois par partie, pendant la journée, désignez publiquement un joueur: s'il est le Démon, il meurt."
+	},
+	{
+		"id": "Philosophe",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/philosopher.png",
+		"name": "Philosophe",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 2,
+		"firstNightReminder": "Le Philosophe choisit s'il souhaite utiliser sa capacité. S'il le fait, il choisir un personnage bon. Si ce personnage n'est pas en jeu, le philosophe gagne sa capacité. Sinon, ce personnage devient ivre.",
+		"otherNight": 2,
+		"otherNightReminder": "S'il ne l'a pas encore fait, le Philosophe choisit s'il souhaite utiliser sa capacité. S'il le fait, il choisir un personnage bon. Si ce personnage n'est pas en jeu, le philosophe gagne sa capacité. Sinon, ce personnage devient ivre.",
+		"reminders": [
+			"Drunk",
+			"Is the Philosopher"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, choisissez un personnage bon: vous gagnez sa capacité. Si ce personnage était déjà en jeu, il devient ivre."
+	},
+	{
+		"id": "Couturier",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/seamstress.png",
+		"name": "Couturier",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 42,
+		"firstNightReminder": "Si le couturier désigne 2 joueurs: indiquez si ces deux joueurs sont dans la même équipe.",
+		"otherNight": 61,
+		"otherNightReminder": "Si le couturier n'a pas encore utilisé sa capacité et qu'elle désigne 2 joueurs: indiquez si ces deux joueurs sont dans la même équipe.",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "Une fois par partie, la nuit, désignez deux autres joueurs: vous apprennez s'ils sont dans la même équipe."
+	},
+	{
+		"id": "Vierge",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/virgin.png",
+		"name": "Vierge",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"No ability"
+		],
+		"setup": false,
+		"ability": "La première fois que vous êtes accusé, si la personne qui vous accuse est un villageois, elle est exécutée immédiatement."
+	},
+	{
+		"id": "Empoté",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/klutz.png",
+		"name": "Empoté",
+		"edition": "snv",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Quand vous apprennez votre mort, désignez publiquement un joueur encore en vie: s'il est mauvais: votre équipe a perdu."
+	},
+	{
+		"id": "Lune",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/moonchild.png",
+		"name": "Lunaire",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 49,
+		"otherNightReminder": "Si le Lunaire a désigné un joueur et que ce joueur est bon: le joueur désigné meurt.",
+		"reminders": [
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Quand vous apprenez votre mort, désignez un joueur vivant. Cette nuit, s’il était bon, il meurt."
+	},
+	{
+		"id": "Jumeau",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/eviltwin.png",
+		"name": "Jumeau maléfique",
+		"edition": "snv",
+		"team": "minion",
+		"firstNight": 23,
+		"firstNightReminder": "Reveillez le Jumeau Maléfique et son Jumeau. Informez les tous deux du rôle de l'autre.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [
+			"Twin"
+		],
+		"setup": false,
+		"ability": "Vous et un joueur de l'équipe adverse connaissez vos personnages respectifs. Si le bon joueur meurt par execution, les mauvais gagnent. Le bien ne peut pas gagner tant que les deux jumeaux sont en vie."
+	},
+	{
+		"id": "Cerveau",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mastermind.png",
+		"name": "Cerveau",
+		"edition": "bmr",
+		"team": "minion",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si le Démon est exécuté (mettant fin à la partie), jouez une journée de plus. Si un joueur est exécuté durant cette journée, son équipe perd."
+	},
+	{
+		"id": "LePukka",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/pukka.png",
+		"name": "Pukka",
+		"edition": "bmr",
+		"team": "demon",
+		"firstNight": 28,
+		"firstNightReminder": "Le Pukka désigne un joueur. Ce joueur est empoisonné.",
+		"otherNight": 26,
+		"otherNightReminder": "Le Pukka désigne un joueur. Ce joueur est empoisonné. Le joueur précédement empoisonné meurt et devient sain.",
+		"reminders": [
+			"Empoisonné",
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur : il est empoisonné. Le joueur précédemment empoisonné meurt et devient sain."
+	}
+]

@@ -1,0 +1,169 @@
+[
+	{
+		"id": "LeChef",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/chef.png",
+		"name": "Chef",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 35,
+		"firstNightReminder": "Indiquez combien de paires de mauvais sont voisins.",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous commencez la partie en sachant combien de paires de voisins sont mauvais."
+	},
+	{
+		"id": "LOracle",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/oracle.png",
+		"name": "Oracle",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 60,
+		"otherNightReminder": "Indiquez combien de joueurs morts sont mauvais.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous apprenez combien de joueurs morts sont mauvais."
+	},
+	{
+		"id": "Corbeau",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/ravenkeeper.png",
+		"name": "Corbeau",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 42,
+		"otherNightReminder": "Si le corbeau est mort cette nuit: Le corbeau désigne un joueur. Indiquez le personnage de ce joueur.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si vous mourrez la nuit, vous choisissez un joueur et apprenez son personnage."
+	},
+	{
+		"id": "Fossoyeur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/undertaker.png",
+		"name": "Fossoyeur",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 56,
+		"otherNightReminder": "Si un joueur a été exécuté aujourd'hui: indiquez le personnage du joueur exécuté.",
+		"reminders": [
+			"Executed"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, si un joueur est mort par exécution pendant la journée, vous apprenez son personnage."
+	},
+	{
+		"id": "LeSage",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/sage.png",
+		"name": "Sage",
+		"edition": "snv",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 43,
+		"otherNightReminder": "Si le sage a été tué par le Démon: Indiquez lui deux joueur dont l'un est le Démon.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Si le Démon vous tue, vous apprennez les noms de deux joueurs. L'un d'eux est le Démon."
+	},
+	{
+		"id": "Maire",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/mayor.png",
+		"name": "Maire",
+		"edition": "tb",
+		"team": "townsfolk",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "S'il ne reste que 3 joueurs en vie et que la journée se termine sans exécution, votre équipe remporte la partie. Si le Démon vous attaque la nuit, un autre joueur peut mourrir à votre place."
+	},
+	{
+		"id": "Reclus",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/recluse.png",
+		"name": "Reclus",
+		"edition": "tb",
+		"team": "outsider",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 0,
+		"otherNightReminder": "",
+		"reminders": [],
+		"setup": false,
+		"ability": "Vous pouvez apparaitre comme un Serviteur ou un Démon aux yeux des autres joueurs, même après votre mort."
+	},
+	{
+		"id": "Aliéné",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/lunatic.png",
+		"name": "Aliéné",
+		"edition": "bmr",
+		"team": "outsider",
+		"firstNight": 7,
+		"firstNightReminder": "S'il y a 7 joueurs ou plus: Indiquez à l'Aliéné un nombre de rôles de Serviteurs correspondant au nombre de Serviteurs en jeu et des joueurs pour chacuns de ces personnages. Montrez 3 jetons de personnages bons de votre choix. Si le faux personnage de Démon assigné à l'Aliéné a des actions de nuit, prétendez que vous lui faites réaliser ces actions. Placez leur(s) marqueur(s) d'attaque(s). Réveillez le vrai Démon. Dévoilez au Démon les véritables Serviteurs et 3 bons personnages qui ne sont pas en jeu. Dévoilez au Démon qui est l'Aliéné. Si ll'aliéné a attaqué des joueurs: Dévoilez au véritable Démon les joueurs marqués puis retirez les marqueurs de l'Aliéné.",
+		"otherNight": 21,
+		"otherNightReminder": "Permettez à l'Aliéné de réaliser les actions du Démon qu'il croit être. Placez leur marqueur d'attaque. Si l'Aliéné a indiqué des joueurs: Reveillez le Démon. Dévoilez au Démon les marqueurs de l'Aliéné. Retirez les marqueurs de l'Aliéné.",
+		"reminders": [
+			"Attaque 1",
+			"Attaque 2",
+			"Attaque 3",
+			"Aliéné",
+			"Faux Zombuul"
+		],
+		"setup": true,
+		"ability": "Vous croyez être le Démon mais vous ne l’êtes pas. Le Démon sait qui vous êtes et qui vous désignez chaque nuit."
+	},
+	{
+		"id": "Empoisonneur",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/poisoner.png",
+		"name": "Empoisonneur",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 17,
+		"firstNightReminder": "L'empoisonneur indique un joueur, marquez le comme empoisonné.",
+		"otherNight": 8,
+		"otherNightReminder": "Le joueur précédement empoisonné ne l'est plus. L'empoisonneur désigne un joueur. Ce joueur est empoisonné.",
+		"reminders": [
+			"Poisoned"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, désignez un joueur: Ils sont empoisonnés jusqu'à la tombée de la nuit."
+	},
+	{
+		"id": "Espion",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/spy.png",
+		"name": "Espion",
+		"edition": "tb",
+		"team": "minion",
+		"firstNight": 48,
+		"firstNightReminder": "Montrez votre grimmoire à l'espion pour aussi longtemps qu'il en a besoin.",
+		"otherNight": 68,
+		"otherNightReminder": "Montrez votre grimmoire à l'espion pour aussi longtemps qu'il en a besoin.",
+		"reminders": [],
+		"setup": false,
+		"ability": "Chaque nuit, vous voyez le Grimoire du narrateur. Vous pouvez apparaitre comme un villageois ou un étranger aux yeux des autres joueurs, même après votre mort."
+	},
+	{
+		"id": "Zombulle",
+		"image": "https://pingumask.elanta.fr/clocktower/icons/zombuul.png",
+		"name": "Zombuul",
+		"edition": "bmr",
+		"team": "demon",
+		"firstNight": 0,
+		"firstNightReminder": "",
+		"otherNight": 25,
+		"otherNightReminder": "Si personne n'est mort aujourd'hui: Le Zombuul désigne un joueur. Ce joueur meurt.",
+		"reminders": [
+			"Mort Aujourd'hui",
+			"Mort"
+		],
+		"setup": false,
+		"ability": "Chaque nuit, si personne n’est mort aujourd’hui, désignez un joueur : il meurt. La première fois que vous mourez, vous vivez mais apparaissez mort."
+	}
+]
